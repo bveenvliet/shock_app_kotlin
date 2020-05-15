@@ -2,13 +2,12 @@ package com.example.countershockkotlin
 
 import java.io.Serializable
 
-class AudioModel: Serializable {
-
-    var id:Int
-    var audioFilename:String = ""
-    var descriptionMessage:String
-    var isAsset:Boolean = false
-    var isTTS:Boolean
+class AudioModel : Serializable {
+    var id: Int
+    var audioFilename: String = ""
+    var descriptionMessage: String
+    var isAsset: Boolean = false
+    var isTTS: Boolean
 
     constructor(id: Int, audioFilename: String, descriptionMessage: String, isAsset: Boolean) {
         this.id = id
@@ -18,10 +17,10 @@ class AudioModel: Serializable {
         this.isTTS = false
     }
 
-    constructor(id:Int, descriptionMessage: String){
-        this.id = id;
+    constructor(id: Int, descriptionMessage: String) {
+        this.id = id
         this.descriptionMessage = descriptionMessage
-        this.isTTS = true;
+        this.isTTS = true
     }
 
     override fun equals(other: Any?): Boolean {

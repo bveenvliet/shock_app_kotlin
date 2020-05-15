@@ -7,4 +7,8 @@
     <string name="key_audio_id">key_audio_id</string>
 
     <string name="key_next_media_id">key_next_media_id</string>
+    <string name="tap_to_shock_friends">Tap to shock friends</string>
+    <string name="add">Add</string>
+    <string name="add_image">Add Image</string>
+    <string name="add_audio">Add Audio</string>
 </resources>

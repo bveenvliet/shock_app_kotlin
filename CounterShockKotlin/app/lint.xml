@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="IconLocation">
+        <ignore path="src/main/res/drawable/bust_2.webp" />
+        <ignore path="src/main/res/drawable/bust_2.webp" />
+        <ignore path="src/main/res/drawable/lama.webp" />
+        <ignore path="src/main/res/drawable/man_1.webp" />
+    </issue>
+    <issue id="UnusedResources">
+        <ignore path="src/main/res/raw/behind_you.wav" />
+        <ignore path="src/main/res/raw/scream2.wav" />
+        <ignore path="src/main/res/raw/see_you.wav" />
+    </issue>
+</lint>
